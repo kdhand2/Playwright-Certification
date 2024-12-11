@@ -1,0 +1,3 @@
+tasks:
+  - init: export BrowserType=chrome
+    command: export headLess=true
