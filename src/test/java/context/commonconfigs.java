@@ -11,8 +11,8 @@ public class commonconfigs {
     private BrowserContext context;
     private Playwright playwright;
     private BrowserType browserType;
-    private final String username = "kdhand2";
-    private final String accessKey = "CtSOjmjSWEH8nb5P1izMThNjbHdGVC2fcoZ2Is3HtKDlxAieCK";
+    private final String username = "karthikdhandapani03";
+    private final String accessKey = "ya4JlKgDpAmx4wN0equlYmnUvSBJXuirwVO8vgRiS1s3GfTK6x";
 
     public commonconfigs() {
     }
@@ -50,14 +50,14 @@ public class commonconfigs {
 
         capabilities.addProperty("browserName", "Chrome"); // Browsers allowed: `Chrome`, `MicrosoftEdge`, `pw-chromium`, `pw-firefox` and `pw-webkit`
         capabilities.addProperty("browserVersion", "latest");
-        ltOptions.addProperty("platform", "Windows 11");
+        ltOptions.addProperty("platform", "Windows 10");
         ltOptions.addProperty("name", "Playwright Test");
         ltOptions.addProperty("build", "Playwright Java Build");
         ltOptions.addProperty("user", username);
         ltOptions.addProperty("accessKey", accessKey);
         capabilities.add("LT:Options", ltOptions);
 
-        cdpUrl = "wss://cdp.lambdatest.com/playwright?capabilities=" + capabilities;
+        cdpUrl = "ws://cdp.lambdatest.com/playwright?capabilities=" + capabilities;
     }
 
     public void teardown() {

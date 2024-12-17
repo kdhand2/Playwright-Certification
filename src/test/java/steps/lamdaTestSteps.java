@@ -81,9 +81,9 @@ public class lamdaTestSteps {
         page.locator("[id=\"inputPassword4\"]").fill("karthik@123");
         page.locator("[id=\"company\"]").fill("lamda");
         page.locator("[id=\"websitename\"]").fill("test");
-        page.locator("[id=\"inputCity\"]").fill("hyd");
-        page.locator("[id=\"inputAddress1\"]").fill("hyd1");
-        page.locator("[id=\"inputAddress2\"]").fill("hyd2");
+        page.locator("[id=\"inputCity\"]").fill("pyd");
+        page.locator("[id=\"inputAddress1\"]").fill("pyd1");
+        page.locator("[id=\"inputAddress2\"]").fill("pyd2");
         page.locator("[id=\"inputState\"]").fill("usa");
         page.locator("[name=\"country\"]").selectOption("US");
         page.locator("[id='inputZip']").fill("12321");
